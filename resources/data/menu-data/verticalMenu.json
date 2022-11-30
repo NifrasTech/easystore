@@ -1,0 +1,163 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "home",
+      "slug": "dashboard-store"
+    },
+    {
+      "url": "/pos",
+      "name": "POS",
+      "icon": "cpu",
+      "slug": "point-of-sale"
+    },
+    {
+      "url": "/products",
+      "name": "Products",
+      "icon": "archive",
+      "slug": "products"
+    },
+    {
+      "name": "Transfers",
+      "icon": "truck",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/transfer/new",
+          "name": "New Transfer",
+          "icon": "circle",
+          "slug": "new-transfer"
+        },
+        {
+          "url": "/transfers",
+          "name": "Transfer List",
+          "icon": "circle",
+          "slug": "transfers"
+        }
+      ]
+    },
+    {
+      "url": "/categories",
+      "name": "Categories",
+      "icon": "align-left",
+      "slug": "categories"
+    },
+    {
+      "url": "/contacts",
+      "name": "Contacts",
+      "icon": "users",
+      "slug": "contacts"
+    },
+    {
+      "name": "Sales",
+      "icon": "list",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/pos",
+          "name": "New Sale",
+          "icon": "circle",
+          "slug": "pos"
+        },
+        {
+          "url": "/sales",
+          "name": "Sale List",
+          "icon": "circle",
+          "slug": "sales"
+        },
+        {
+          "url": "/sale-items",
+          "name": "Sale Items",
+          "icon": "circle",
+          "slug": "sale-items"
+        }
+      ]
+    },
+    {
+      "name": "Purchases",
+      "icon": "list",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/purchase/new",
+          "name": "New Purchase",
+          "icon": "circle",
+          "slug": "new-purchase"
+        },
+        {
+          "url": "/purchases",
+          "name": "Purchase List",
+          "icon": "circle",
+          "slug": "purchases"
+        }
+      ]
+    },
+    {
+      "navheader": "Configurations",
+      "slug": ""
+    },
+    {
+      "url": "/stores",
+      "name": "Stores",
+      "icon": "shopping-bag",
+      "slug": "stores"
+    },
+    {
+      "name": "Users",
+      "icon": "user",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "User List",
+          "icon": "circle",
+          "slug": "users"
+        }
+      ]
+    }, 
+    {
+      "name": "Roles & Permission",
+      "icon": "shield",
+      "slug": "user-roles",
+      "url": "user-roles"
+    }, 
+    {
+      "url": "/settings",
+      "name": "Settings",
+      "icon": "settings",
+      "slug": "settings"
+    },
+    {
+      "name": "Invoice",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "List",
+          "icon": "circle",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "app/invoice/preview",
+          "name": "Preview",
+          "icon": "circle",
+          "slug": "app-invoice-preview"
+        },
+        {
+          "url": "app/invoice/edit",
+          "name": "Edit",
+          "icon": "circle",
+          "slug": "app-invoice-edit"
+        },
+        {
+          "url": "app/invoice/add",
+          "name": "Add",
+          "icon": "circle",
+          "slug": "app-invoice-add"
+        }
+      ]
+    }
+  ]
+}

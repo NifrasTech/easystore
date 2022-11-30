@@ -1,0 +1,20 @@
+Don't allow to delete first store
+Add store is only for super-admin
+dynamically change categories modal title
+
+Make Model - singlular (Contact)
+Make Controller - singular (ContactController)
+Make View - plural (contacts.blade.php)
+Make LiveWire modal - singular (contact-modal.blade.php)
+
+New database table - plural
+
+Add bootstrap floating textbox
+change checkout to livewire component
+
+admin@gmail.com
+1234
+
+Providers/MenuServiceProvider
+
+Menulayout App\Helpers\helper
